@@ -7,7 +7,7 @@ const Services = () => {
       <h1 className=" text-white text-4xl font-bold mb-10">
         Solutions from your Security
       </h1>
-      <div className="grid grid-cols-5 gap-8 mb-24">
+      <div className="grid lg:grid-cols-5 gap-8 mb-24">
         <div
           className="relative bg-cover bg-center bg-no-repeat h-[42rem]"
           style={{
@@ -23,7 +23,7 @@ const Services = () => {
           </div>
         </div>
         <div
-          className="relative bg-cover bg-center bg-no-repeat col-span-3 h-[42rem]"
+          className="relative bg-cover bg-center bg-no-repeat lg:col-span-3 h-[42rem]"
           style={{
             backgroundImage:
             `url('${image_5_1}')`,
@@ -52,7 +52,7 @@ const Services = () => {
         </div>
       </div>
 
-      <section className="grid grid-cols-3 gap-4">
+      <section className="grid lg:grid-cols-3 gap-4">
         <div className="bg-[#10052f] min-h-72">
           <h3 className="text-xl font-bold text-white mb-2C bg-[#160641] p-4">
             <span className="text-red-800">Security</span> Services

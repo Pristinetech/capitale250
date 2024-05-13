@@ -1,17 +1,41 @@
+import { useState } from "react";
 import IscoLogo from "../assets/isco-icon.svg";
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <header className="bg-[#100430] p-4">
-      <div className="container mx-auto flex justify-between items-center">
-        <div className="text-xl font-bold text-white">
-            <img src={IscoLogo} alt="isco logo" />
+      <div className="container mx-auto flex flex-col lg:flex-row justify-between lg:items-center">
+        <div className="flex justify-between xw-full text-xl font-bold text-white">
+          <img className="lg:block" src={IscoLogo} alt="isco logo" />
+          <button className="lg:hidden" onClick={toggleMenu}>
+            <svg
+              className="w-6 h-6 text-white"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+          </button>
         </div>
-        <nav className="flex w-full justify-center space-x-32">
-          <a href="#" className="text-white hover:text-gray-200">
+        <nav
+          className={`${
+            menuOpen ? "block" : "hidden"
+          } flex flex-col flex-wrap lg:flex-row justify-center lg:space-x-28 text-[20px] mt-10 lg:mt-0`}
+        >
+          <a href="#" className="text-white w-fit hover:text-gray-200">
             Home
-          </a>
-          <a href="#" className="text-white hover:text-gray-200">
+          </a> 
+          <a href="#" className="text-white w-fit hover:text-gray-200">
             About Us
           </a>
           <a href="#" className="text-white hover:text-gray-200">
