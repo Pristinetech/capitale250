@@ -4,5 +4,14 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".diagonal-tr": {
+          "clip-path": "polygon(0 0, 100% 0, 100% 85%, 0 100%)",
+        },
+      };
+      addUtilities(newUtilities);
+    },
+  ],
 };
