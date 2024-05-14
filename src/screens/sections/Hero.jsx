@@ -3,10 +3,10 @@ import avatar_2 from "../../assets/avatar-2.png";
 import avatar_3 from "../../assets/avatar-3.png";
 const Hero = () => {
   return (
-    <div className="bg-[#0e0622] py-40">
+    <div id="home" className="bg-[#0e0622] lg:py-40">
       <div className="container mx-auto">
         <div className="flex justify-center items-center pb-8 lg:text-center flex-col space-y-14 my-10">
-          <h1 className="text-8xl font-bold text-white">
+          <h1 className="text-5xl lg:text-8xl font-bold text-white">
             Rwanda&apos;s #1 Trusted <br /> Secure{" "}
             <span className="text-red-700">Solutions</span>
           </h1>

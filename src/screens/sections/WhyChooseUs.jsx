@@ -1,6 +1,6 @@
 const WhyChooseUs = () => {
   return (
-    <div className="flex flex-wrap py-16 bg-[#160541]  min-h-[70rem] lg:h-auto">
+    <div className="flex flex-wrap py-16 bg-[#160541]  min-h-[80rem] lg:min-h-fit lg:h-auto">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row justify-between my-20">
           <h2 className="text-4xl font-semibold max-w-72 text-red-600 mb-8 text-start">
@@ -14,7 +14,9 @@ const WhyChooseUs = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 h-80">
           <div className="bg-[#120533] shadow-md p-10 flex flex-col justify-end pb-16">
-            <div className="text-2xl text-red-600 font-bold mb-4">Reliability</div>
+            <div className="text-2xl text-red-600 font-bold mb-4">
+              Reliability
+            </div>
             <p className="text-gray-400">
               Our services are backed by a reliable infrastructure, ensuring
               smooth operations.

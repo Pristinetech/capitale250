@@ -1,9 +1,9 @@
-import image_4_1 from "../../assets/Image-4-1.png"
-import image_5_1 from "../../assets/Image-5-1.png"
-import image_6_1 from "../../assets/Image-6-1.png"
+import image_4_1 from "../../assets/Image-4-1.png";
+import image_5_1 from "../../assets/Image-5-1.png";
+import image_6_1 from "../../assets/Image-6-1.png";
 const Services = () => {
   return (
-    <div className="container flex flex-col  mx-auto mb-44">
+    <div id="what-we-do" className="container flex flex-col  mx-auto mb-44">
       <h1 className=" text-white text-4xl font-bold mb-10">
         Solutions from your Security
       </h1>
@@ -11,8 +11,7 @@ const Services = () => {
         <div
           className="relative bg-cover bg-center bg-no-repeat h-[42rem]"
           style={{
-            backgroundImage:
-            `url('${image_4_1}')`,
+            backgroundImage: `url('${image_4_1}')`,
           }}
         >
           <div className="absolute bottom-0 w-full bg-gradient-to-t from-[#0b0320] via-[#0b0320]/75 to-transparent p-4">
@@ -25,8 +24,7 @@ const Services = () => {
         <div
           className="relative bg-cover bg-center bg-no-repeat lg:col-span-3 h-[42rem]"
           style={{
-            backgroundImage:
-            `url('${image_5_1}')`,
+            backgroundImage: `url('${image_5_1}')`,
           }}
         >
           <div className="absolute bottom-0 w-full bg-gradient-to-t from-[#0b0320] via-[#0b0320]/75 to-transparent p-4">
@@ -39,8 +37,7 @@ const Services = () => {
         <div
           className="relative bg-cover bg-center bg-no-repeat h-[42rem]"
           style={{
-            backgroundImage:
-            `url('${image_6_1}')`,
+            backgroundImage: `url('${image_6_1}')`,
           }}
         >
           <div className="absolute bottom-0 w-full bg-gradient-to-t from-[#0b0320] via-[#0b0320]/75 to-transparent p-4">

@@ -32,19 +32,19 @@ const Navbar = () => {
             menuOpen ? "block" : "hidden"
           } flex flex-col flex-wrap lg:flex-row justify-center lg:space-x-28 text-[20px] mt-10 lg:mt-0`}
         >
-          <a href="#" className="text-white w-fit hover:text-gray-200">
+          <a href="#home" className="text-white w-fit hover:text-gray-200">
             Home
           </a> 
-          <a href="#" className="text-white w-fit hover:text-gray-200">
+          <a href="#about" className="text-white w-fit hover:text-gray-200">
             About Us
           </a>
-          <a href="#" className="text-white hover:text-gray-200">
+          <a href="#what-we-do" className="text-white hover:text-gray-200">
             What We Do
           </a>
-          <a href="#" className="text-white hover:text-gray-200">
+          <a href="#articles" className="text-white hover:text-gray-200">
             Articles
           </a>
-          <a href="#" className="text-white hover:text-gray-200">
+          <a href="#contact-us" className="text-white hover:text-gray-200">
             Contact Us
           </a>
         </nav>
