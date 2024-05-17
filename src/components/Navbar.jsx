@@ -2,14 +2,14 @@ import { useState } from "react";
 import IscoLogo from "../assets/isco-icon.svg";
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(true);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
   return (
-    <header className="bg-[#100430] p-4">
+    <header className="bg-[#100430] p-4 relative z-40">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between lg:items-center">
         <div className="flex justify-between xw-full text-xl font-bold text-white">
           <img className="lg:block" src={IscoLogo} alt="isco logo" />
