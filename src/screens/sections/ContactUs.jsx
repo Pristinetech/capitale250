@@ -31,13 +31,13 @@ const ContactUs = () => {
         <div className="max-w-5xl mx-auto shadow-sm overflow-hidden bg-white p-16">
           <div className="text-sm text-gray-500 w-fit mx-auto leading-8">
             <p className=" text-[24px]">
-              Please complete the form below, to request a quote, and we{`'`}ll
-              be in touch.
+              For inquiries, collaborations, or more information, reach out to
+              us:
             </p>
-            <p className=" text-[24px]">
+            {/* <p className=" text-[24px]">
               Or you can call us on 3322 and our specialists will provide the
               necessary help!
-            </p>
+            </p> */}
           </div>
           <Formik
             initialValues={{

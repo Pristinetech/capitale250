@@ -4,6 +4,9 @@ import avatar_1 from "../../assets/avatar-1.png";
 import avatar_2 from "../../assets/avatar-2.png";
 import avatar_3 from "../../assets/avatar-3.png";
 import { loadFull } from "tsparticles";
+import Icon1 from "../../assets/Frame.svg";
+import Icon2 from "../../assets/Frame_1.svg";
+import Icon3 from "../../assets/Frame_2.svg";
 
 const Hero = () => {
   const particlesInit = async (main) => {
@@ -101,14 +104,15 @@ const Hero = () => {
               <p className="text-gray-500 mb-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-                accumsan lacus vel facilisis.
+                ipsum suspendisse ultrices gravida. Risus commodo viverra
+                maecenas accumsan lacus vel facilisis.
               </p>
             </div>
           </div>
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="space-y-4">
-              <div className=" text-white rounded-sm p-4 flex items-center h-40 justify-center bg-gradient-to-br from-red-800/70 to-[#0b1d40]">
+              <div className=" text-white rounded-sm p-4 flex items-center h-40 justify-center bg-gradient-to-br from-red-800/70 to-[#0b1d40] space-x-5">
+                <img src={Icon1} alt="" />
                 <span className="max-w-24 font-semibold text-[18px]">
                   15 years of experience
                 </span>
@@ -128,7 +132,8 @@ const Hero = () => {
                   backgroundImage: `url('${avatar_3}')`,
                 }}
               ></div>
-              <div className=" text-white rounded-sm p-4 flex items-center h-40 justify-center bg-gradient-to-br from-red-800/70 to-[#0b1d40]">
+              <div className=" text-white rounded-sm p-4 flex items-center h-40 justify-center bg-gradient-to-br from-red-800/70 to-[#0b1d40] space-x-5">
+                <img src={Icon3} alt="" />
                 <span className="max-w-24 font-semibold text-[18px]">
                   35K clients service
                 </span>
@@ -136,7 +141,8 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-row w-full col-span-2 lg:col-span-1 lg:flex-col space-x-4 lg:space-x-0 lg:space-y-4 ">
-              <div className=" text-white rounded-sm p-4 flex items-center h-full lg:h-40 w-1/2 lg:w-full justify-center bg-gradient-to-br from-red-800/70 to-[#0b1d40]">
+              <div className=" text-white rounded-sm p-4 flex items-center h-full lg:h-40 w-1/2 lg:w-full justify-center bg-gradient-to-br from-red-800/70 to-[#0b1d40] space-x-5">
+                <img src={Icon2} alt="" />
                 <span className="max-w-24 font-semibold text-[18px]">
                   5K employees currently
                 </span>

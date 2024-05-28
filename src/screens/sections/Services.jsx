@@ -67,10 +67,12 @@ const Services = () => {
               <span className="text-red-800">Cash</span> Services
             </h3>
             <p className="text-gray-700 p-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-              ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-              accumsan lacus vel facilisis.
+              ISCO delivers a comprehensive cash management solution to
+              financial institutions and clients in Rwanda. Cash Services are
+              best suited for the financial and retail sector looking for a
+              hassle-free solution that helps banks and other retail customers
+              to reduce risks pertaining to cash management, and focus on their
+              core business.
             </p>
           </div>
           <div className="bg-[#0b0320] min-h-72 border border-[#160641]">
