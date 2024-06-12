@@ -1,26 +1,28 @@
 import "../../App.css";
-import Particles from "react-tsparticles";
+// import Particles from "react-tsparticles";
 import avatar_1 from "../../assets/avatar-1.png";
 import avatar_2 from "../../assets/avatar-2.png";
 import avatar_3 from "../../assets/avatar-3.png";
-import { loadFull } from "tsparticles";
+// import { loadFull } from "tsparticles";
 import Icon1 from "../../assets/Frame.svg";
 import Icon2 from "../../assets/Frame_1.svg";
 import Icon3 from "../../assets/Frame_2.svg";
+import OceanWave from "../../components/OceanWave";
 
 const Hero = () => {
-  const particlesInit = async (main) => {
-    console.log(main);
-    await loadFull(main);
-  };
+  // const particlesInit = async (main) => {
+  //   console.log(main);
+  //   await loadFull(main);
+  // };
 
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
+  // const particlesLoaded = (container) => {
+  //   console.log(container);
+  // };
 
   return (
     <div id="home" className="relative bg-[#0e0622] lg:py-40">
-      <Particles
+      <OceanWave className="!h-1/2" />
+      {/* <Particles
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
@@ -92,7 +94,7 @@ const Hero = () => {
           },
           detectRetina: true,
         }}
-      />
+      /> */}
       <div className="relative z-30">
         <div className="container mx-auto relative z-10">
           <div className="flex justify-center items-center pb-8 lg:text-center flex-col space-y-14 my-10">

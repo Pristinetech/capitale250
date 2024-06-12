@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import OceanWave from "../components/OceanWave";
 import About from "./sections/About";
 import Articles from "./sections/Articles";
 import ContactUs from "./sections/ContactUs";

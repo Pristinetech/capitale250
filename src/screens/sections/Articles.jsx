@@ -3,8 +3,8 @@ import image_6_1 from "../../assets/Image_BG_4_1.png";
 
 const Articles = () => {
   return (
-    <div className=" relative z-40  pb-36 pt-10 bg-[#0b0320]">
-      <div id="about" className="container mx-auto py-20 h-fit lg:h-fit">
+    <div className=" relative xz-40  pb-36 pt-10 bg-[#0b0320]">
+      <div id="about" className="container mx-auto z-40 py-20 h-fit lg:h-fit">
         <div className="px-4  py-10 mb-5 flex flex-col lg:flex-row justify-between">
           <h1 className="text-4xl font-bold text-red-700">Articles</h1>
 

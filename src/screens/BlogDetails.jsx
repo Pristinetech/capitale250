@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import FeaturedArticles from "./sections/FeaturedArticles";
 import Footer from "./sections/Footer";
 import Subscribe from "./sections/Subscribe";
 
@@ -92,6 +93,9 @@ const BlogDetails = () => {
           </div>
         </div>
       </section>
+
+      {/* Featured posts */}
+      <FeaturedArticles />
       {/* Subscribe */}
       <Subscribe />
 
